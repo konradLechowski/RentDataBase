@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Reservation]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Date_from] DATE NULL, 
+    [Date_from] DATE NOT NULL, 
     [Date_to] DATE NOT NULL, 
     [Worker_id] INT NOT NULL, 
     [Iteam_id] INT NOT NULL, 

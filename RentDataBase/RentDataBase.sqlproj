@@ -58,6 +58,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Procedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Iteam.sql" />
@@ -72,8 +73,8 @@
     <Build Include="Tables\Rent.sql" />
     <Build Include="Tables\Register.sql" />
     <Build Include="Tables\Condition.sql" />
-    <Build Include="FirstInsert.sql" />
-    <Build Include="TestSelect.sql" />
+    <Build Include="Procedure\FirstInsert.sql" />
+    <Build Include="Procedure\TestSelect.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="RentDataBase.refactorlog" />

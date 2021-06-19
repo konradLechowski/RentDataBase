@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[TestSelect]
-
+	
+AS
 	SELECT * from Position
-	order by Name;
-	GO
+GO;
 
