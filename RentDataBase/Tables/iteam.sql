@@ -3,5 +3,7 @@
 	[Id] INT NOT NULL PRIMARY KEY, 
     [Name] VARCHAR(50) NULL, 
     [Availability_id] INT NULL, 
-    CONSTRAINT FK_Iteam_Av FOREIGN KEY ([Availability_id]) REFERENCES Availbility(Id)
+    [Condition_id] INT NULL, 
+    CONSTRAINT FK_Iteam_Av FOREIGN KEY ([Availability_id]) REFERENCES Availbility(Id), 
+    CONSTRAINT FK_Iteam_Condition FOREIGN KEY ([Condition_id]) REFERENCES Condition(Id)
 )

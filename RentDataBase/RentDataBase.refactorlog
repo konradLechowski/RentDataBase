@@ -28,4 +28,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Availability_id" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a11fca4e-e967-48ca-b560-b5e61ab6befa" ChangeDateTime="06/19/2021 10:59:32">
+    <Property Name="ElementName" Value="[dbo].[Iteam].[state]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Iteam]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="State_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="feaa8f25-57a4-4c17-9225-1bf0fc195abc" ChangeDateTime="06/19/2021 11:02:11">
+    <Property Name="ElementName" Value="[dbo].[Iteam].[State_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Iteam]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Condition_id" />
+  </Operation>
 </Operations>
