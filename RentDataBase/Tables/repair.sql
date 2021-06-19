@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[repair]
+﻿CREATE TABLE [dbo].[Repair]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
     [Date_from] DATE NULL, 
