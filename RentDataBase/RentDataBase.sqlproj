@@ -64,6 +64,9 @@
     <Build Include="Tables\Worker.sql" />
     <Build Include="Tables\Reservation.sql" />
     <Build Include="Tables\Availbility.sql" />
+    <Build Include="Tables\Fault.sql" />
+    <Build Include="Tables\repair.sql" />
+    <Build Include="Tables\Permission.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="RentDataBase.refactorlog" />
