@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Position]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Name] VARCHAR(50) NULL, 
+    [Name] VARCHAR(50) NOT NULL, 
     
 )
 

@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Iteam]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Name] VARCHAR(50) NULL, 
+    [Name] VARCHAR(50) NOT NULL, 
     [Availability_id] INT NULL, 
     [Condition_id] INT NULL, 
     CONSTRAINT FK_Iteam_Av FOREIGN KEY ([Availability_id]) REFERENCES Availbility(Id), 
