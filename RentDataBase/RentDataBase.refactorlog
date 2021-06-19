@@ -7,4 +7,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Name" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="5cf999ca-54d7-49fe-aa0f-1ed428d0eeb7" ChangeDateTime="06/19/2021 10:05:18">
+    <Property Name="ElementName" Value="[dbo].[iteam].[Accesabi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[iteam]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Availability" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c7bcad91-aba1-4b62-8992-8af0c02b1c9e" ChangeDateTime="06/19/2021 10:22:21">
+    <Property Name="ElementName" Value="[dbo].[reservation].[Item_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[reservation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Iteam_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed009354-7dde-481a-8ec6-6eff130c8f87" ChangeDateTime="06/19/2021 10:34:28">
+    <Property Name="ElementName" Value="[dbo].[iteam].[Availability]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[iteam]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Availability_id" />
+  </Operation>
 </Operations>
