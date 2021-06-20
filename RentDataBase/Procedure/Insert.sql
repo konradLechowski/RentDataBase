@@ -60,7 +60,7 @@ SET IDENTITY_INSERT [dbo].[Permission] OFF
 	Insert Repair(Date_from, Date_to, Fault_id, iteam_id)
 	values	('2021.06.20','2021.07.25',2,8),
 			('2021.06.19','2021.07.07',3,7),
-			('2021.07.15', '2021.06.23'1,6);
+			('2021.07.15', '2021.06.23',1,6);
 
 
 	Insert Reservation (Date_from, Date_to, Worker_id, Iteam_id)
