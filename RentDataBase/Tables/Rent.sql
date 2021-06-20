@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Rent]
 (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY (1, 1), 
     [Reservation_id] INT NOT NULL, 
     [Service_id] INT NOT NULL, 
     CONSTRAINT FK_Rent_Reservation FOREIGN KEY (Reservation_Id) REFERENCES Reservation(Id), 
