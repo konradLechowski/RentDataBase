@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Position]
 (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY (1, 1), 
     [Name] VARCHAR(50) NOT NULL, 
     
 )

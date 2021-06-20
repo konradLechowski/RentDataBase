@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Iteam]
 (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY (1, 1), 
     [Name] VARCHAR(50) NOT NULL, 
     [Availability_id] INT NULL, 
     [Condition_id] INT NULL, 
