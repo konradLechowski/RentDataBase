@@ -1,11 +1,13 @@
-﻿CREATE TABLE [dbo].[Repair]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Date_from] DATE NOT NULL, 
-    [Date_to] DATE NULL, 
-    [Fault_id] INT NOT NULL, 
-    CONSTRAINT FK_Repair_Fault FOREIGN KEY (Fault_id) REFERENCES Fault(id)
-)
+﻿CREATE TABLE [dbo].[Repair] (
+    [Id]        INT  IDENTITY (1, 1) NOT NULL,
+    [Date_from] DATE NOT NULL,
+    [Date_to]   DATE NULL,
+    [Fault_id]  INT  NOT NULL,
+    [Iteam_id] INT NULL, 
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Repair_Fault] FOREIGN KEY ([Fault_id]) REFERENCES [dbo].[Fault] ([Id]), 
+    CONSTRAINT [FK_Repair_Iteam] FOREIGN KEY (Iteam_id) REFERENCES Iteam(Id)
+);
 
 GO
 
